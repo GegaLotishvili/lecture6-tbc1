@@ -1,4 +1,83 @@
-h2 {
-	font-size: 70px;
-	color: cyan;
+header {
+	width: 100%;
+	background-color: cyan;
+	padding: 20px 0;
+	position: fixed;
+	top: 0;
+	z-index: 100;
 }
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.logo {
+	font-size: 50px;
+	color: hotpink;
+	margin-right: 100px;
+	vertical-align: middle;
+}
+
+nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 50px;
+}
+
+li a {
+	font-size: 24px;
+	color: black;
+}
+
+.s-1 {
+	margin-top: 94px;
+	
+}
+
+.mshobeli {
+	width: 700px;
+	height: 700px;
+	background-color: lightblue;
+	position: relative;
+	border-radius: 20px 10px 15px 5px;
+	
+}
+
+.shvili {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 40%;
+}
+
+.s-2 {
+	margin-bottom: 200px;
+}
+
+.parent {
+	display: inline-block;
+	position: relative;
+	border: 2px solid yellow;
+}
+
+h2 {
+	font-size: 30px;
+	color: white;
+	display: inline-block;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
